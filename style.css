@@ -19,14 +19,12 @@ body {
     background-color: var(--bg);
     color: var(--text);
     line-height: 1.6;
-    transition: all 0.3s ease;
 }
 
 .navbar {
     background-color: var(--white);
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -58,7 +56,6 @@ body {
     text-decoration: none;
     color: var(--text);
     font-weight: 500;
-    transition: color 0.3s;
 }
 
 .nav-links a:hover,
@@ -74,7 +71,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-weight: 500;
-    transition: all 0.3s;
 }
 
 .theme-btn:hover {
@@ -89,7 +85,6 @@ body {
     font-weight: 500;
     cursor: pointer;
     border: none;
-    transition: all 0.3s;
     text-align: center;
 }
 
@@ -182,7 +177,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
 
 .feature-card h3 {
     color: var(--accent);
