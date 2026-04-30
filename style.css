@@ -194,5 +194,44 @@ body {
     text-decoration: none;
     font-weight: 500;
 }
+/* I UPDATED THE CSS FOR TIPS */
+.tips-section {
+    padding: 3rem 2rem;
+    background-color: var(--bg);
+}
 
+.tips-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.tips-category {
+    margin-bottom: 3rem;
+}
+
+.tips-category h3 {
+    color: var(--accent);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent);
+}
+
+.tip-card {
+    background-color: var(--white);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-left: 4px solid var(--accent);
+}
+
+.tip-card h4 {
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.tip-card p {
+    color: var(--light-text);
+}
