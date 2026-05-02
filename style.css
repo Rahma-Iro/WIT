@@ -235,3 +235,81 @@ body {
 .tip-card p {
     color: var(--light-text);
 }
+
+/*update from here for stories and articles page*/
+
+.stories-section {
+    padding: 3rem 2rem;
+    background-color: var(--bg);
+}
+
+.stories-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+}
+
+.story-card {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-top: 4px solid var(--accent);
+}
+
+.story-card h3 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.story-card p {
+    color: var(--light-text);
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.story-card strong {
+    color: var(--text);
+}
+
+.articles-section {
+    padding: 3rem 2rem;
+    background-color: var(--bg);
+}
+
+.articles-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.article-card {
+    background-color: var(--white);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.article-card h3 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.article-card p {
+    color: var(--light-text);
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.article-card ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.article-card li {
+    color: var(--light-text);
+    margin-bottom: 0.5rem;
+}
