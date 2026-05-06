@@ -14,6 +14,16 @@
     --border: #ecf0f1;
 }
 
+body.dark-mode {
+    --primary: #1a1a1a;
+    --accent: #3498db;
+    --bg: #0f0f0f;
+    --white: #1e1e1e;
+    --text: #e0e0e0;
+    --light-text: #a0a0a0;
+    --border: #333333;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg);
