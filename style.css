@@ -410,7 +410,6 @@ body {
 }
 
 .password-container::before {
-    content: '🔑';
     position: absolute;
     font-size: 150px;
     opacity: 0.05;
